@@ -398,3 +398,48 @@ if ('serviceWorker' in navigator) {
         });
     });
 }
+
+
+// ===== GITHUB PROJECTS AUTO LOAD =====
+
+(function loadGithubProjects(){
+
+fetch("https://api.github.com/users/ShobhitGitHubPal/repos")
+.then(res => res.json())
+.then(data => {
+
+const container = document.getElementById("github-projects");
+
+if(!container) return;
+
+container.innerHTML = "";
+
+data.slice(0,4).forEach(repo => {
+
+const card = document.createElement("div");
+card.className = "project-card";
+
+card.innerHTML = `
+<div class="project-header">
+<h3>${repo.name}</h3>
+</div>
+
+<div class="project-content">
+<p>${repo.description || "AI / ML Project"}</p>
+
+<div class="project-links">
+<a href="${repo.html_url}" target="_blank" class="project-link">
+<i class="fab fa-github"></i>
+</a>
+</div>
+
+</div>
+`;
+
+container.appendChild(card);
+
+});
+
+});
+
+})();
