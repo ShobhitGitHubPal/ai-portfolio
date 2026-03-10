@@ -965,31 +965,31 @@ footer {
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    margin-top:3rem;
-    gap:1rem;
+    margin-top:2rem;
+    gap:0.6rem;
 }
 
 .counter-label{
-    font-size:1.6rem;
+    font-size:1.3rem;   /* पहले 1.6rem */
     font-weight:600;
     color:var(--primary);
-    letter-spacing:1px;
+    letter-spacing:0.5px;
 }
 
 .counter-box{
     background:var(--bg-white);
-    padding:1.2rem 2.5rem;
-    border-radius:1.5rem;
+    padding:0.6rem 1.5rem;   /* पहले 1.2rem 2.5rem */
+    border-radius:1rem;      /* थोड़ा छोटा */
     box-shadow:var(--shadow);
     border:1px solid var(--border);
     transition:all .3s ease;
 }
 
 .counter-box:hover{
-    transform:translateY(-3px);
+    transform:translateY(-2px);
     box-shadow:var(--shadow-hover);
 }
 
 .counter-box img{
-    height:30px;
+    height:20px;   /* पहले 30px */
 }
