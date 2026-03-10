@@ -990,6 +990,11 @@ footer {
     box-shadow:var(--shadow-hover);
 }
 
-.counter-box img{
+/* .counter-box img{
     height:20px;   /* पहले 30px */
+} */
+
+.counter-box img{
+    height:20px;
+    filter: invert(1);
 }
