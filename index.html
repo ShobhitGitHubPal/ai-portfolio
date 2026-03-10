@@ -1,319 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Port-Folio</title>
-    <link rel="stylesheet" href="
-https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-
-    <link rel="stylesheet" href="style.css">
+    <title>Shobhit Pal | Principal AI Engineer - Ex-Google (Freelance) | Generative AI Expert</title>
+    
+    <!-- External CSS Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+    <!-- Custom Cursor Elements -->
+    <div class="cursor-1"></div>
+    <div class="cursor-2"></div>
 
-    <div class="cursor1"></div>
-    <div class="cursor2"></div>
-
+    <!-- Mobile Menu Button -->
     <div id="menu-bars" class="fas fa-bars"></div>
 
-    <header>
-        <a href="" class="logo"> <span> Shobhit </span> Pal </a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-        <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#services">services</a>
-            <a href="#experience">experiance</a>
-            <a href="#portfolio"> portfolio</a>
-            <a href="#contact">contact</a>
-
-        </nav>
-
-
-        <div class="follow">
-            <a href="https://www.facebook.com/shobhit.pal.5249" class="fab fa-facebook"></a>
-            <a href="https://twitter.com/shobhit87718411" class="fab fa-twitter"></a>
-            <a href="https://www.instagram.com/palshobhit318/" class="fab fa-instagram"></a>
-            <a href="https://www.linkedin.com/in/shobhit-pal-b65147240/" class="fab fa-linkedin"></a>
-            <!-- <a href="" class="fab fa-"></a> -->
-        </div>
-    </header>
-
+    <!-- Home Section -->
     <section class="home" id="home">
-        <div class="content">
-            <span class="hi">hi there...</span>
-            <h3>i am <span>Shobhit Pal</span> </h3>
-            <p class="inf">i am a python developer</p>
-            <p class="text">Enthusiastic engineer graduate with basic knowledge in coding. Proficient in 
-                PYTHON. Ability to learn new software and technology quickly. Capability to work in 
-                teams by providing valuable support.</p>
-            <a href="#about" class="btn">about me</a>
-
+        <div class="home-content">
+            <div class="greeting">
+                👋 Hello, I'm
+                <span class="greeting-badge">AI Engineer</span>
+            </div>
+            <h1>
+                Shobhit <span>Pal</span>
+            </h1>
+            <div class="typing-container">
+                <span class="typed-text"></span>
+            </div>
+            <p class="description">
+                AI Engineer with 3+ years of experience designing and deploying scalable Generative AI and Computer Vision solutions. Expertise in building RAG-based chatbots, implementing efficient vector search systems, and developing real-time object detection models. Passionate about transforming advanced AI research into reliable, production-grade applications that deliver measurable impact.
+            </p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i>
+                    Hire Me
+                </a>
+                <a href="assets/docs/Shobhit_Pal_Ai_3y.pdf" class="btn btn-outline">
+                    <i class="fas fa-download"></i>
+                    Download CV
+                </a>
+            </div>
         </div>
-
-        <div class="image">
-            <img src="shobhit1.png" alt="">
+        <div class="home-image">
+            <div class="image-wrapper">
+                <img src="assets/images/shobhit1.png" alt="Shobhit Pal">
+            </div>
+            <div class="floating-badge badge-1">
+                <i class="fas fa-robot" style="color: var(--primary);"></i>
+                <span>Generative AI</span>
+            </div>
+            <div class="floating-badge badge-2">
+                <i class="fas fa-eye" style="color: var(--primary);"></i>
+                <span>Computer Vision</span>
+            </div>
         </div>
     </section>
 
+    <!-- About Section -->
     <section class="about" id="about">
-        <h1 class="heading">about <span>me</span> </h1>
-        <div class="row-1">
-            <div class="image">
-                <img src="shobhit2.png" alt="">
-            </div>
-            <div class="content">
-                <h3> my name is shobhit pal & i am python developer fresher </h3>
-                <p>I have bachelors
-                    degree in computer science & engineering from Dr. A.P.J.Abdul Kalam technical University Lucknow in
-                    2021.</p>
-
-                <div class="box-container">
-                    <div class="box">
-                        <p> <span>age :</span> 23</p>
-                        <p> <span>gender :</span>male </p>
-                        <p> <span>language :</span>hindi, english </p>
-                        <p> <span> work :</span> python developer </p>
-                    </div>
-                    <div class="box">
-                        <p> <span>freelance :</span> available</p>
-                        <p> <span>phone :</span>9170336377 </p>
-                        <p> <span>email :</span>palshobhit318@gmail.com</p>
-                        <p> <span>country :</span> india </p>
-                    </div>
-                </div>
-                <a href="printresume.pdf" class="btn">download cv</a>
-                <!-- <a href="" class="btn">hire me</a> -->
-
-            </div>
-
+        <div class="section-header">
+            <span class="section-subtitle">About Me</span>
+            <h2 class="section-title">AI Engineer passionate about <span>building intelligent systems</span></h2>
         </div>
-        <h1 class="heading"> <span> my </span> skills </h1>
-
-        <div class="row-2">
-            <div class="skills">
-                <div class="progress">
-                    <h3> Python <span>80%</span> </h3>
-                    <div class="bar"> <span></span> </div>
+        <div class="about-grid">
+            <div class="about-image">
+                <img src="assets/images/shobhit2.png" alt="Shobhit Pal">
+                <div class="experience-badge">
+                    <span class="years">3+</span>
+                    <span class="text">Years of Experience</span>
                 </div>
-                <div class="progress">
-                    <h3> Html <span>70%</span> </h3>
-                    <div class="bar"> <span></span> </div>
+            </div>
+            <div class="about-content">
+                <h3>Specialized in Generative AI & Computer Vision</h3>
+                <p class="about-text">
+                    With 3 years of experience in a fast-paced startup environment, I specialize in developing advanced AI applications. My work includes building RAG-based chatbots and real-time object detection systems, focusing on transforming AI research into scalable, production-ready solutions.
+                </p>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <span class="label">📍 Based in</span>
+                        <span class="value">Noida, India</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">🎓 Education</span>
+                        <span class="value">B.Tech CSE, AKTU '21</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">📧 Email</span>
+                        <span class="value">palshobhit318@gmail.com</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">📞 Phone</span>
+                        <span class="value">+91 91703 36377</span>
+                    </div>
                 </div>
-
-                <div class="progress">
-                    <h3> css <span>50%</span> </h3>
-                    <div class="bar"> <span></span> </div>
-                </div>
-                <div class="progress">
-                    <h3> JavaScript <span>40%</span> </h3>
-                    <div class="bar"> <span></span> </div>
-                </div>
-
             </div>
-
-            <div class="box-container">
-                <div class="box">
-                    <h3> fresher </h3>
-                </div>
-                <div class="box">
-                    <h3> >>2+ </h3>
-                    <p>projects completes</p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="services" id="services">
-        <h1 class="heading"> <span>My</span> services </h1>
-        <div class="box-container">
-
-            <div class="box">
-                <i class="fas fa-code"></i>
-                <h3>python developer</h3>
-                <p>I am a python developer, i have skills python, Django, pygame. </p>
-
-            </div>
-
-            <div class="box">
-                <i class="fas fa-code"></i>
-                <h3>frontend developer</h3>
-                <p>I am a web developer, i have skills html, css, JavaScript. </p>
-
-            </div>
-            <div class="box">
-                <i class="fas fa-code"></i>
-                <h3>backend developer</h3>
-                <p>i am a backend developer, using mysql, django framework of python.</p>
-
-            </div>
-
-            <div class="box">
-                <i class="fas fa-code"></i>
-                <h3>fullstack web developer</h3>
-                <p> i am a fullstack web developer, i have skills Html, css, JavaScript, Django, mysql.</p>
-
-            </div>
-
-            <!-- <div class="box">
-                <i class="fas fa-bullhorn"></i>
-                <h3>seo marketting</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eveniet quod saepe reiciendis
-                    atque perspiciatis inventore sequi impedit consectetur sit!</p>
-
-            </div> -->
-
-            <!-- <div class="box">
-                <i class="fas fa-chart-line"></i>
-                <h3>digital marketting</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eveniet quod saepe reiciendis
-                    atque perspiciatis inventore sequi impedit consectetur sit!</p>
-
-            </div> -->
-
-            <!-- <div class="box">
-                <i class="fas fa-envelope"></i>
-                <h3>email marketting</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eveniet quod saepe reiciendis
-                    atque perspiciatis inventore sequi impedit consectetur sit!</p>
-
-            </div> -->
-
         </div>
     </section>
 
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-header">
+            <span class="section-subtitle">Technical Expertise</span>
+            <h2 class="section-title">Skills & <span>Proficiencies</span></h2>
+        </div>
+
+        <div class="skills-category">
+            <h3 class="category-title">
+                <i class="fas fa-brain"></i>
+                Generative AI
+            </h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <h3>RAG Systems</h3>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">FAISS</span>
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">Ollama</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <h3>LLMs & Embeddings</h3>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Mistral</span>
+                        <span class="skill-tag">LLaMA</span>
+                        <span class="skill-tag">OpenAI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-category">
+            <h3 class="category-title">
+                <i class="fas fa-eye"></i>
+                Computer Vision
+            </h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <h3>YOLOv8</h3>
+                        <span class="skill-percent">88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 88%"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Object Detection</span>
+                        <span class="skill-tag">Tracking</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <h3>OpenCV</h3>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Image Processing</span>
+                        <span class="skill-tag">Video Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-category">
+            <h3 class="category-title">
+                <i class="fas fa-code"></i>
+                Backend & APIs
+            </h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <h3>Python</h3>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">Flask</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <h3>Databases</h3>
+                        <span class="skill-percent">82%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 82%"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">FAISS</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <h3>DevOps Tools</h3>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GCP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
     <section class="experience" id="experience">
-        <h1 class="heading"> <span>my</span> experience </h1>
-        <div class="box-container">
-            <div class="box">
-                <div class="container">
-                    <span> Fresher</span>
-                    <h3>frontend developement</h3>
-                    <p>I am a web developer, i have skills html, css, JavaScript.</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="container">
-                    <span> Fresher</span>
-                    <h3>backend developement</h3>
-                    <p>i am a backend developer, using mysql django framework of python.</p>
+        <div class="section-header">
+            <span class="section-subtitle">Career Journey</span>
+            <h2 class="section-title">Work <span>Experience</span></h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Jun 2024 - Present</span>
+                    <h3>ML / AI Engineer</h3>
+                    <p class="company">
+                        <a href="https://www.fourbrick.com/">FOURBRICK TECHNOLOGY</a>
+                    </p>
+                    <ul class="achievements">
+                        <li><i class="fas fa-check-circle"></i> Designed and developed RAG-based Generative AI chatbot for document-driven QA</li>
+                        <li><i class="fas fa-check-circle"></i> Built end-to-end pipelines: ingestion, chunking, embeddings, vector search</li>
+                        <li><i class="fas fa-check-circle"></i> Developed real-time CV solutions using YOLOv8 and OpenCV</li>
+                        <li><i class="fas fa-check-circle"></i> Exposed AI pipelines via FastAPI REST APIs for production</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">RAG</span>
+                        <span class="tech-tag">YOLOv8</span>
+                        <span class="tech-tag">FAISS</span>
+                    </div>
                 </div>
             </div>
 
-            <div class="box">
-                <div class="container">
-                    <span> Fresher</span>
-                    <h3>fullstack web developement</h3>
-                    <p>i am a fullstack web developer, i have skills Html, css, JavaScript, Django, mysql.</p>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Apr 2023 - May 2024</span>
+                    <h3>Software Engineer</h3>
+                    <p class="company">
+                        <a href="https://www.fourbrick.com/">FOURBRICK TECHNOLOGY</a>
+                    </p>
+                    <ul class="achievements">
+                        <li><i class="fas fa-check-circle"></i> Developed scalable backend services using Python, Flask, FastAPI, and MongoDB</li>
+                        <li><i class="fas fa-check-circle"></i> Built OCR pipelines using PaddleOCR, PyTesseract for data extraction</li>
+                        <li><i class="fas fa-check-circle"></i> Implemented automation workflows with Selenium and BeautifulSoup</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">OCR</span>
+                    </div>
                 </div>
             </div>
-
-            <!-- <div class="box">
-                <div class="container">
-                    <span> 2018 - 2019</span>
-                    <h3>frontend developement</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio repellat ipsum deleniti
-                        explicabo laudantium! Rerum quod iusto blanditiis accusamus officiis?</p>
-                </div>
-            </div> -->
-
         </div>
     </section>
 
-    <section class="portfolio" id="portfolio">
-        <h1 class="heading"> <span> my </span> portfolio</h1>
-        <div class="box-container">
-            <div class="box">
-                <img src="img1.jpeg" alt="">
-                <h3> project 01 </h3>
-                <div class="icon">
-                    <a href="https://github.com/ShobhitGitHubPal/SnakeGame" class="fas fa-link"></a>
-                    <a href="" class="fas fa-share"></a>
-                    <a href="" class="fas fa-search"></a>
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-header">
+            <span class="section-subtitle">Featured Work</span>
+            <h2 class="section-title">My <span>Projects</span></h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>AiVerse - Generative AI Chatbot Platform</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">RAG</span>
+                        <span class="tech-tag">FAISS</span>
+                        <span class="tech-tag">Mistral</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
                 </div>
-            </div>
-            <div class="box">
-                <img src="img1.jpeg" alt="">
-                <h3> project 02 </h3>
-                <div class="icon">
-                    <a href="https://github.com/ShobhitGitHubPal/Employee-Management-System" class="fas fa-link"></a>
-                    <a href="" class="fas fa-share"></a>
-                    <a href="" class="fas fa-search"></a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="img1.jpeg" alt="">
-                <h3> project 03 </h3>
-                <div class="icon">
-                    <a href="https://github.com/ShobhitGitHubPal/MY-PORTFOLIO-WEB" class="fas fa-link"></a>
-                    <a href="" class="fas fa-share"></a>
-                    <a href="" class="fas fa-search"></a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="img1.jpeg" alt="">
-                <h3> project 04 </h3>
-                <div class="icon">
-                    <a href="" class="fas fa-link"></a>
-                    <a href="" class="fas fa-share"></a>
-                    <a href="" class="fas fa-search"></a>
+                <div class="project-content">
+                    <p>A ChatGPT-style conversational AI platform with real-time streaming responses and document understanding capabilities.</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i> RAG implementation for PDF ingestion and context-aware QA</li>
+                        <li><i class="fas fa-check-circle"></i> FAISS-based vector search for semantic retrieval</li>
+                        <li><i class="fas fa-check-circle"></i> JWT authentication with conversation management</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/ShobhitGitHubPal" class="project-link"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/ShobhitGitHubPal/chatgpt" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
                 </div>
             </div>
 
-        </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>AutoVision Alert - CV Safety System</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">YOLOv8</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">WebRTC</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p>Real-time object detection system for industrial safety monitoring with hazard detection capabilities.</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i> Distance-based hazard detection for worker safety</li>
+                        <li><i class="fas fa-check-circle"></i> OpenCV video pipelines for live inference</li>
+                        <li><i class="fas fa-check-circle"></i> REST APIs for monitoring and alerts</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/ShobhitGitHubPal" class="project-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section class="contact" id="contact">
-        <h1 class="heading">contact <span> me </span></h1>
-        <div class="icons-container">
-            <div class="icons">
-                <i class="fas fa-envelope"></i>
-                <h3>my email</h3>
-                <p> <a href="mailto:palshobhit318@gmail.com"> palshobhit318@gmail.com</a></p>
-            </div>
-
-            <div class="icons">
-                <i class="fas fa-phone"></i>
-                <h3>my number</h3>
-                <p><a href="tel:9170336377">9170336377</a></p>
-            </div>
-
-            <div class="icons">
-                <i class="fas fa-map-marker-alt"></i>
-                <h3>my adress</h3>
-                <p> <a href="https://www.google.com/maps/place/PAHO/@26.3327243,80.9314698,17.17z/data=!4m6!3m5!1s0x399b8fd4e50695fd:0xb457cd1ae4fe274f!8m2!3d26.3326206!4d80.9343038!16s%2Fg%2F11jz69x98s">Raebareli, UttarPradesh</a></p>
-            </div>
+        <div class="section-header">
+            <span class="section-subtitle">Get In Touch</span>
+            <h2 class="section-title">Let's <span>Connect</span></h2>
         </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Have a Project in Mind?</h3>
+                <p>I'm always interested in hearing about new opportunities, especially in Generative AI and Computer Vision. Let's discuss how I can help bring your ideas to life.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info">
+                            <h4>Email</h4>
+                            <p><a href="mailto:palshobhit318@gmail.com">palshobhit318@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="info">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+9170336377">+91 91703 36377</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info">
+                            <h4>Current Location</h4>
+                            <p>Noida, Uttar Pradesh</p>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="row">
-            <form action="">
-                <input type="text" placeholder="name" class="box">
-                <input type="email" placeholder="email" class="box">
-                <input type="number" placeholder="number" class="box">
-                <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
-                <input type="submit" class="btn" value="send message">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/shobhit-pal-b65147240/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/ShobhitGitHubPal" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/shobhit87718411" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/palshobhit318/" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Tell me about your project..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                    <i class="fas fa-paper-plane"></i>
+                    Send Message
+                </button>
             </form>
-            <iframe class="map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57260.52262485734!2d81.20684680161649!3d26.236250456319656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399ba14166f655d1%3A0x24dffd072d377f70!2sRaebareli%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1677136947194!5m2!1sen!2sin"
-                allowfullscreen="" loading="lazy"></iframe>
         </div>
-
     </section>
 
+    <!-- Footer -->
     <footer>
-created by <span>mr. Shobhit Pal
-</span>| all rights reserver!
+        <p>Designed & Built by <span>Shobhit Pal</span> | © 2023 All Rights Reserved</p>
     </footer>
 
-
-    <script src="script.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
 </body>
-
 </html>
