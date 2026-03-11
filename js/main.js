@@ -404,24 +404,29 @@ if ('serviceWorker' in navigator) {
 
 <script>
 (function(){
-emailjs.init({
-  publicKey: "OwKOWMkRMaufmbI-B",
+emailjs.init("OwKOWMkRMaufmbI-B");
 })();
-
-
 
 document.getElementById("contactForm").addEventListener("submit", function(e){
 
 e.preventDefault();
 
-emailjs.sendForm("service_syi924m","template_jdf51zj",this)
-.then(function(){
+emailjs.sendForm(
+"service_syi924m",
+"template_jdf51zj",
+this
+)
+.then(function(response){
 
 alert("Message sent successfully!");
+
+console.log("SUCCESS!", response.status, response.text);
 
 }, function(error){
 
 alert("Failed to send message");
+
+console.log("FAILED...", error);
 
 });
 
