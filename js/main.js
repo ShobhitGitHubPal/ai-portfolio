@@ -400,9 +400,8 @@ if ('serviceWorker' in navigator) {
 }
     
 
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 
-<script>
+
 (function(){
 emailjs.init("OwKOWMkRMaufmbI-B");
 })();
@@ -419,16 +418,13 @@ this
 .then(function(response){
 
 alert("Message sent successfully!");
-
 console.log("SUCCESS!", response.status, response.text);
 
 }, function(error){
 
 alert("Failed to send message");
-
 console.log("FAILED...", error);
 
 });
 
 });
-</script>
