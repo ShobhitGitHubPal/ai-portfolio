@@ -404,14 +404,14 @@ if ('serviceWorker' in navigator) {
 
 <script>
 (function(){
-emailjs.init("YOUR_PUBLIC_KEY");
+emailjs.init("OwKOWMkRMaufmbI-B");
 })();
 
 document.getElementById("contactForm").addEventListener("submit", function(e){
 
 e.preventDefault();
 
-emailjs.sendForm("YOUR_SERVICE_ID","YOUR_TEMPLATE_ID",this)
+emailjs.sendForm("service_syi924m","template_jdf51zj",this)
 .then(function(){
 
 alert("Message sent successfully!");
