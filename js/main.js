@@ -126,16 +126,16 @@
 })();
 
 // ===== FORM SUBMISSION =====
-(function initContactForm() {
-    const contactForm = document.getElementById('contactForm');
-    if (!contactForm) return;
+// (function initContactForm() {
+//     const contactForm = document.getElementById('contactForm');
+//     if (!contactForm) return;
 
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        alert('Thank you for your message! I will get back to you within 24 hours.');
-        contactForm.reset();
-    });
-})();
+//     contactForm.addEventListener('submit', (e) => {
+//         e.preventDefault();
+//         alert('Thank you for your message! I will get back to you within 24 hours.');
+//         contactForm.reset();
+//     });
+// })();
 
 // ===== ACTIVE NAVIGATION ON SCROLL =====
 (function initActiveNavigation() {
