@@ -404,8 +404,11 @@ if ('serviceWorker' in navigator) {
 
 <script>
 (function(){
-emailjs.init("OwKOWMkRMaufmbI-B");
+emailjs.init({
+  publicKey: "OwKOWMkRMaufmbI-B",
 })();
+
+
 
 document.getElementById("contactForm").addEventListener("submit", function(e){
 
