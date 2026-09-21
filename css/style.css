@@ -277,6 +277,12 @@ section {
     animation-delay: 1.5s;
 }
 
+.badge-2 {
+    bottom: 20%;
+    left: -50%;
+    animation-delay: 1.5s;
+}
+
 @keyframes float {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-20px); }
